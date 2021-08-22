@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Montserrat:wght@400;500;700;800&display=swap');
+@import url(//db.onlinewebfonts.com/c/1fbe10678e637530067167465205839f?family=Gabelisa);
+
+:root {
+    //color
+    --pm-color: #0C0D0D;
+    --bm-color: #FFE100;
+    //font
+    --hd-font:  'Fredericka the Great', cursive;
+    --pm-font:  'Montserrat', sans-serif;
+    --st-font : "Gabelisa";
+}
+
+body {
+    font-family: var(--pm-font);
+}
+
+h1 {
+    font-family: var(--hd-font);
+    font-size: 450%;
+
+}
+
+h2 {
+    font-family: var(--st-font)
+}
+
+h5 {
+    font-weight: 700;
+}
+.exp-deliviry {
+    line-height: 150%;
+}
+
+.expd {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.expdno {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.top-iph {
+    height: 8 vh;
+}
+
+#top-menue {
+    ul{
+        // padding-right: 3rem;
+        padding-top: 1rem;
+        li{
+            display: inline;
+            padding-right: 3rem;
+            font-weight: 700;
+        }
+    }
+}
+
+.happy-hour {
+    font-family: var(--hd-font);
+}
+#top-head {
+    background: url(../image/header-bg.png) no-repeat top center;
+    background-size: cover;
+}
+
+#choose-enjoy button {
+    background-color: var(--bm-color);
+    border: none;
+    padding: 0.5rem 1rem;
+}
+
+.resv-form-button{
+    background-color: var(--bm-color);
+    width: 100%;
+    border: none;
+    padding-top: 0.5rem;
+}
+
+#foter {
+    background: url(../image/footer-png.png) ;
+    background-size: cover;
+    color: white;
+}
+
+.ft-icon span {
+    color: var(--bm-color);
+    font-size: 2rem;
+}
+
+.footer-social i {
+    font-size: 1.5rem;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
